@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>animationを使ったアニメーション</title>
+  <style type="text/css">
+    /*共通設定*/
+    div{
+      width: 100px;
+      height: 100px;
+      padding: 1em;
+      margin: 2em 2em 4em;
+      background: #ad4444;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .sample1{animation: zigzag 2s ease 0s 3 normal;}
+    @keyframes zigzag{
+      0%{transform: translate(0,0);}
+      50%{transform: translate(50px,50px);}
+      100%{transform: translate(100px,0px);}
+    }
+
+    .sample2{animation: scale-and-color 4s ease 0s infinitealternate;}
+    @keyframes scale-and-color{
+      0%{background: #ad4444; transform: scale(1);}
+      50%{background: #3946ad; transform: scale(1.5);}
+      100%{background: #4dad48; transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+
+</body>
+</html>

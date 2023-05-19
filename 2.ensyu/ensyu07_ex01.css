@@ -1,0 +1,13 @@
+table{
+  font-size: 1.2rem;
+}
+table{
+  border: 3px solid #000;
+}
+
+th{
+  border: 3px solid #000;
+}
+td{
+  border: 3px solid #000;
+}
